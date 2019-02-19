@@ -1,6 +1,6 @@
 <h1>Preprocess Application</h1>
 <h6>Author: Ben Hasselgren</h6>
-<h6>Matric No.: 40416405</h6>
+<h6>Matric No: 40416405</h6>
 <h6>Date: 19/02/2019</h6>
 
 <h3>Description</h3>
@@ -14,12 +14,10 @@
 <ol>
 <li>Navigate to directory contaiing the source files.</li>
 <li>Type in the following commands to build the file.</li>
-	<code>
-	cl /c check-comment.c check-pre-processor-word.c check-define-variable.c<br>
-	lib /OUT:pre-processor.lib check-comment.obj check-pre-processor-word.obj check-define-variable.obj<br>
-	cl /c preprocess.c<br>
-	link preprocess.obj pre-processor.lib
-	</code>
+	<code>cl /c check-comment.c check-pre-processor-word.c check-define-variable.c</code><br>
+	<code>lib /OUT:pre-processor.lib check-comment.obj check-pre-processor-word.obj check-define-variable.obj</code><br>
+	<code>cl /c preprocess.c</code><br>
+	<code>link preprocess.obj pre-processor.lib</code>
 <li>Now you are ready to use the application.</li>
 </ol>
 
